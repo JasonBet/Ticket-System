@@ -1,6 +1,6 @@
 // header guards (not necessary but including for generally good practice)
-#ifdef TICKETING_SYSTEM
-#define TICKETING_SYSTEM
+#ifndef TICKETING_SYSTEM_H
+#define TICKETING_SYSTEM_H
 #include <queue>
 
 // Define Ticket structure
@@ -19,6 +19,6 @@ public:
     void generateTicket();
     void processTicket();
     int queueSize() const;
-}
+};
 
 #endif

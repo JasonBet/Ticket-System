@@ -100,5 +100,6 @@
     "typeinfo": "cpp"
   },
   "cmake.configureOnOpen": true,
-  "C_Cpp.dimInactiveRegions": false
+  "C_Cpp.dimInactiveRegions": false,
+  "C_Cpp.errorSquiggles": "disabled"
 }
