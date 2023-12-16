@@ -3,7 +3,7 @@
 
 TicketingSystem::TicketingSystem():nextTicketId(0){}
 
-void TicketingSystem::processTicket(){
+void TicketingSystem::generateTicket(){
     Ticket newTicket(nextTicketId++);
     tickets.push(newTicket);
     std::cout<<"Ticket generated: " << newTicket.id<<std::endl;

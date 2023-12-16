@@ -9,10 +9,10 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "${workspaceFolder}",
-      "program": "${workspaceFolder}/main",
+      "program": "${workspaceFolder}\\main.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
-      "preLaunchTask": "build",
+      "preLaunchTask": "g++ build active file",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
